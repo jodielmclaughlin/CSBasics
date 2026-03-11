@@ -12,7 +12,9 @@ namespace CSBasics
             Console.WriteLine("Title: " + myBook.Title);
             Console.WriteLine("Pages: " + myBook.Pages);
             Console.WriteLine("Current Page: " + myBook.CurrentPage);
-           
+            myBook.TurnPage();
+            Console.WriteLine("Current Page: " + myBook.CurrentPage);
+
         }
       
     }

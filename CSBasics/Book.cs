@@ -24,6 +24,14 @@ namespace CSBasics
             
         }
 
+        public void TurnPage()
+        {
+            if (CurrentPage < Pages)
+            {
+                CurrentPage++;
+            }
+           
+        }
         
     }
    
