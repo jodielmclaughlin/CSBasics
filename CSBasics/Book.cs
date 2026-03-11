@@ -10,10 +10,10 @@ namespace CSBasics
 {
     internal class Book
     {
-        public string Title { get; set; }
-        public int Pages { get; set; }
+        public string Title { get; }
+        public int Pages { get;  }
 
-        public int CurrentPage { get; set; }
+        public int CurrentPage { get; private set;  }
 
         //constructor
         public Book(string title, int pages)
